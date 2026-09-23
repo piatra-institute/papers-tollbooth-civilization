@@ -53,13 +53,13 @@ def plot_tollbooth(results, path):
     axA.text(20, 0.39, "single owner: $W=0.375$", ha="right", va="bottom",
              fontsize=7.5, color=GREEN)
     axA.axhline(0.5, color=COOL, lw=1.0, alpha=0.5)
-    axA.text(0.3, 0.505, "open stack: $W=0.5$", ha="left", va="bottom",
+    axA.text(3.0, 0.505, "open stack: $W=0.5$", ha="left", va="bottom",
              fontsize=7.5, color=COOL)
     axA.set_xlim(0, 20)
     axA.set_ylim(0, 1.0)
     axA.set_xlabel("independently tolled layers $N$", fontsize=9)
     axA.set_ylabel("per unit of throughput", fontsize=9)
-    axA.set_title("Tolls compound, throughput collapses", fontsize=10, color=INK)
+    axA.set_title("Price, throughput and welfare against tolled layers", fontsize=10, color=INK)
     axA.spines[["top", "right"]].set_visible(False)
     axA.legend(fontsize=7.5, frameon=False, loc="center right")
 
@@ -70,40 +70,40 @@ def plot_tollbooth(results, path):
     Nrep = na["representative_depth"]
     r_priv = na["private_optimum_toll"]
     axB.plot(r, Wr, color=INK, lw=2.2, label="social value $W(r)$")
-    axB.plot(r, rho, color=WARM, lw=2.2, label="one owner's revenue")
+    axB.plot(r, rho, color=WARM, lw=2.2, label="per-layer revenue $r(1-Nr)$")
     axB.axvline(0.0, color=COOL, lw=1.6)
-    axB.text(0.0007, 0.10, "social\noptimum\n$r=0$", color=COOL, fontsize=7.5,
+    axB.text(0.0007, 0.04, "social\noptimum\n$r=0$", color=COOL, fontsize=7.5,
              va="bottom", ha="left")
     rho_peak = float(rho.max())
     axB.axvline(r_priv, color=WARM, lw=1.1, ls="--")
     axB.plot([r_priv], [rho_peak], "o", color=WARM, ms=5)
-    axB.annotate(f"private optimum\n$r^\\star=1/2N$, take ${rho_peak:.3f}$",
-                 xy=(r_priv, rho_peak), xytext=(r_priv * 0.63, 0.30),
+    axB.annotate(f"private optimum\n$r^\\star=1/(2N)$, take ${rho_peak:.3f}$",
+                 xy=(r_priv, rho_peak), xytext=(0.0265, 0.085),
                  fontsize=7.5, color=WARM,
                  arrowprops=dict(arrowstyle="->", color=WARM, lw=1.0))
     axB.set_xlim(0, r[-1])
     axB.set_ylim(0, 0.55)
-    axB.set_xlabel(f"toll $r$ on one of $N={Nrep}$ layers", fontsize=9)
+    axB.set_xlabel(f"common toll $r$ on each of $N={Nrep}$ layers", fontsize=9)
     axB.set_ylabel("value per unit of throughput", fontsize=9)
-    axB.set_title("Where value peaks, capture is zero", fontsize=10, color=INK)
+    axB.set_title(f"Welfare and per-layer revenue ($N={Nrep}$)", fontsize=10, color=INK)
     axB.spines[["top", "right"]].set_visible(False)
-    axB.legend(fontsize=7.5, frameon=False, loc="upper right")
+    axB.legend(fontsize=7.5, frameon=False, loc="center left", bbox_to_anchor=(0.03, 0.45))
 
     # --- Panel C: capture ratio vs depth ---------------------------------
     Ncurve = np.arange(1, 101)
     kappa = 1.0 / (2.0 * Ncurve)
-    axC.plot(Ncurve, kappa, color=ACCENT, lw=2.2, label=r"capture ratio $\kappa=1/2N$")
+    axC.plot(Ncurve, kappa, color=ACCENT, lw=2.2, label=r"capture ratio $\kappa=1/(2N)$")
     nk = na["nordhaus_capture_ratio"]
     dmatch = na["depth_matching_nordhaus"]
     axC.axhline(nk, color=WARM, lw=1.3, ls="--")
-    axC.text(100, nk + 0.004, "Nordhaus: innovators capture ~2.2%",
+    axC.text(100, nk + 0.004, "Nordhaus (2004) estimate: 2.2%",
              ha="right", va="bottom", fontsize=7.5, color=WARM)
     axC.plot([dmatch], [nk], "o", color=WARM, ms=5)
     axC.set_xlim(1, 100)
     axC.set_ylim(0, 0.5)
     axC.set_xlabel("stack depth $N$ (complementary layers)", fontsize=9)
     axC.set_ylabel(r"sustainable private capture ratio $\kappa$", fontsize=9)
-    axC.set_title("Foundational means uncapturable", fontsize=10, color=INK)
+    axC.set_title("Capture ratio against stack depth", fontsize=10, color=INK)
     axC.spines[["top", "right"]].set_visible(False)
     axC.legend(fontsize=7.5, frameon=False, loc="upper right")
 

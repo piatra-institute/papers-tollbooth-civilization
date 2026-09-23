@@ -1,13 +1,33 @@
 slug: tollbooth-civilization
 web_slug: tollbooth-civilization
-title: "Tollbooth Civilization: Why the Work That Becomes Foundational Cannot Be Owned, and What Gets Owned Instead"
-header: "Tollbooth Civilization"
-created: "2026-07"        # inception month (drives YYYY/MM archive path)
-date: "July 2026"             # publication month, e.g. "May 2026" (shown on web)
+title: 'Tollbooth Civilization: Why the Work That Becomes Foundational Cannot Be Owned, and What Gets
+  Owned Instead'
+header: Tollbooth Civilization
+created: 2026-07
+date: July 2026
 paper_dir: paper
 has_simulation: true
-claims_target: results.json   # results.json | claim-ledger | none
+claims_target: results.json
 repo: git@github.com:piatra-institute/papers-tollbooth-civilization.git
 github: https://github.com/piatra-institute/papers-tollbooth-civilization
-status: published             # draft | built | published
-abstract: "Rankings of private wealth are read as rankings of contribution to civilization, and the reading is wrong in a way that has structure. Work becomes foundational by becoming non-excludable, standardized, cheap to copy, and depended upon by everything above it, and each of those properties is what stops its creator from charging for it. The people whose work became the substrate of modern technology, the designers of the internet's transport protocol, the metal-oxide-semiconductor transistor, the small public-domain database inside most devices, the salt-and-sugar formula that rehydrates a dying child, captured almost none of the value their work carries, and they captured almost none of it because the work became foundational. This paper models a technological civilization as a stack of serially dependent layers, each able to levy a per-use toll, and computes what tolls do to it. In a normalized market the open, untolled stack delivers social value 0.5 and its creators keep nothing; a single owner of the whole stack keeps 0.25 while halving throughput; and when the stack is split among independent tollbooths the tolls compound, so that two booths set a higher combined price than one owner would and collect less between them while users are worse off, and twenty booths cut throughput to about 5 percent of the open level. The sustainable private capture of any one foundational layer falls as 1/(2N) in the number of complementary layers, so the model's capturable fraction reaches the roughly 2.2 percent of social surplus that Nordhaus estimated innovators actually capture near a stack 23 layers deep. The configuration that maximizes social value is the one in which creators capture nothing. Great fortunes form instead at the narrower, more excludable layers above the commons, where control over a point that use must pass through can be turned into recurring revenue, and ownership of such a point is then narrated as though it were the building of the road beneath it. The paper is careful about what this does and does not license: appropriability drives real invention, integration and scaling are real work, and a single integrated owner does less damage than a fragmented anticommons. The claim is the systematic divergence between contribution and capture, and the mistaking of the tollbooth for the road."
+status: published
+abstract: Rankings of private wealth are commonly read as rankings of contribution; the error has a definite
+  structure. Work becomes foundational by becoming non-excludable, standardized, cheap to copy, and depended
+  upon by everything built above it, and these same properties prevent its creator from charging for it.
+  The designers of the internet's transport protocol, the metal-oxide-semiconductor transistor, the SQLite
+  database, and oral rehydration therapy captured almost none of the value their work supports. We model
+  a technological civilization as a stack of serially dependent layers, each able to levy a per-use toll.
+  In a normalized market the open stack delivers social value 0.5 and its creators capture nothing; a
+  single owner of the whole stack captures 0.25 and halves throughput; two independent tollbooths set
+  a higher combined price than a single owner, collect less between them, and leave users worse off; twenty
+  tollbooths reduce throughput to about 5 percent of the open level. When all layers charge a common revenue-maximizing
+  toll, the capturable share of any one layer falls as $1/(2N)$ in the number of complementary layers,
+  reaching the 2.2 percent of social surplus that Nordhaus estimated innovators capture at a depth of
+  about 23 layers. Social value is maximized when creators capture nothing. Large fortunes form instead
+  at narrower, excludable layers above the commons, where control of a point that use must pass through
+  yields recurring revenue, and that control is then described as authorship of the infrastructure beneath
+  it. Appropriability still funds invention, integration is real work, and a single integrated owner does
+  less damage than a fragmented anticommons.
+web_blurb: Work becomes foundational by becoming non-excludable and universally depended upon, which prevents
+  its creators from charging for it. A model of tolls on a serially dependent stack shows open layers
+  maximize welfare while fragmented tolls collapse throughput.

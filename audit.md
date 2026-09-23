@@ -2,6 +2,21 @@
 
 Dated log of editorial passes and verification runs. Newest first.
 
+## 2026-09-23 — prose revision
+
+Prose rewritten against the house standards. Headings made descriptive (Introduction, Economics of non-appropriability, The layered stack and its chokepoints, A model of serial tolls, Capture at the upper layers and its attribution, Case studies, Scope and limits of the argument, Conclusion).
+
+Tic counts before -> after: 'rather than' 7 -> 0; 'not X but Y' 8 -> 0; 'worth' 11 -> 0; 'this paper' 5 -> 0; inline ', not X' 2 -> 0; 'exactly/precisely' 2 -> 0.
+
+Corrections found during the pass:
+  - The text called r* = 1/(2N) "the revenue-maximizing toll on one of N symmetric layers". In analyses.py it maximizes r(1 - N r), i.e. the per-layer revenue when all N layers charge the same toll (the integrated-monopoly price split equally), which differs from the unilateral Nash toll 1/(N+1) of the preceding section. The text now states the common-toll assumption and gives the per-layer take 1/(4N) (0.0125 at N = 20, the value annotated in the figure).
+  - The Nordhaus crossing depth was given as "near 23"; the closed form 1/(2 x 0.022) = 22.7 (results.json depth_matching_nordhaus) is now also stated.
+  - Figure axis label "one owner's revenue" and "toll r on one of N layers" replaced with "per-layer revenue r(1-Nr)" and "common toll r on each of N = 20 layers" to match the computation.
+
+Grid audit: every headline number is a closed form (r* = 1/(N+1), W_N, kappa = 1/(2N), depth 1/(2 kappa)); the nonlinear robustness study uses the closed form r* = 1/(N+theta). No grid-derived thresholds. Prose numbers checked against results.json: 0.5, 0.25, 0.375, 0.667, 0.333, 0.222, 0.125, 0.056, 9 and 5 percent throughput, welfare fractions 0.174 ("about a sixth") and 0.093 ("below a tenth"), 2.5 percent and leverage 40 at N = 20, q10/open 0.042 to 0.179 ("about 4 and 18 percent"). Arithmetic rechecked: 1/0.022 = 45 ("more than 40"); 1 - 0.022 = 97.8 ("about 98 percent"); 8.8 trillion / 4.15 billion = 2120 ("above a thousand"); 1e-4 x 1e19 = 1e15. results.json unchanged by the re-run.
+
+Title left unchanged; it is long but not erroneous.
+
 ## 2026-07-12 — Initial draft, build, and gate pass
 
 Scope: paper written end to end from the seed conversation; deterministic economic simulation built; all gates driven to clean.
