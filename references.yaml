@@ -1,0 +1,296 @@
+# CSL references with stable IDs; cite with Pandoc [@id] syntax.
+# Migrated from the legacy inline bibliography. Entries with a DOI were resolved through doi.org
+# content negotiation (CSL-JSON) and checked for year and title; others were matched in Crossref
+# or entered by hand. Provenance per entry is in sources.md.
+references:
+- id: allen1983
+  type: article-journal
+  title: Collective invention
+  author:
+  - given: Robert C.
+    family: Allen
+  container-title: Journal of Economic Behavior & Organization
+  volume: '4'
+  issue: '1'
+  page: 1-24
+  DOI: 10.1016/0167-2681(83)90023-9
+  issued:
+    date-parts:
+    - - 1983
+- id: arrow1962
+  type: chapter
+  title: Economic Welfare and the Allocation of Resources for Invention
+  author:
+  - given: Kenneth J.
+    family: Arrow
+  container-title: 'The Rate and Direction of Inventive Activity: Economic and Social Factors'
+  page: 609-626
+  publisher: Princeton University Press
+  DOI: 10.1515/9781400879762-024
+  issued:
+    date-parts:
+    - - 1962
+  publisher-place: Princeton
+  NJ: null
+- id: bresnahan1995
+  type: article-journal
+  title: 'General Purpose Technologies: ‘Engines of Growth’?'
+  author:
+  - given: Timothy F.
+    family: Bresnahan
+  - given: M.
+    family: Trajtenberg
+  container-title: Journal of Econometrics
+  volume: '65'
+  issue: '1'
+  page: 83-108
+  DOI: 10.1016/0304-4076(94)01598-T
+  issued:
+    date-parts:
+    - - 1995
+- id: cerf1974
+  type: article-journal
+  title: A Protocol for Packet Network Intercommunication
+  author:
+  - given: V.
+    family: Cerf
+  - given: R.
+    family: Kahn
+  container-title: IEEE Transactions on Communications
+  volume: '22'
+  issue: '5'
+  page: 637-648
+  DOI: 10.1109/tcom.1974.1092259
+  issued:
+    date-parts:
+    - - 1974
+- id: christophers2020
+  type: book
+  title: 'Rentier Capitalism: Who Owns the Economy, and Who Pays for It?'
+  author:
+  - given: Brett
+    family: Christophers
+  publisher: Verso
+  publisher-place: London
+  issued:
+    date-parts:
+    - - 2020
+- id: cournot1897
+  type: book
+  title: Researches into the Mathematical Principles of the Theory of Wealth
+  author:
+  - given: Augustin
+    family: Cournot
+  translator:
+  - given: Nathaniel T.
+    family: Bacon
+  publisher: Macmillan
+  publisher-place: New York
+  original-date:
+    date-parts:
+    - - 1838
+  issued:
+    date-parts:
+    - - 1897
+- id: david1985
+  type: article-journal
+  title: Clio and the Economics of QWERTY
+  author:
+  - given: Paul A.
+    family: David
+  container-title: American Economic Review
+  volume: '75'
+  issue: '2'
+  page: 332-337
+  issued:
+    date-parts:
+    - - 1985
+- id: giblin2022
+  type: book
+  title: 'Chokepoint Capitalism: How Big Tech and Big Content Captured Creative Labor Markets and How
+    We’ll Win Them Back'
+  author:
+  - given: Rebecca
+    family: Giblin
+  - given: Cory
+    family: Doctorow
+  publisher: Beacon Press
+  publisher-place: Boston
+  issued:
+    date-parts:
+    - - 2022
+- id: heller1998
+  type: article-journal
+  title: Can Patents Deter Innovation? The Anticommons in Biomedical Research
+  author:
+  - given: Michael A.
+    family: Heller
+  - given: Rebecca S.
+    family: Eisenberg
+  container-title: Science
+  volume: '280'
+  issue: '5364'
+  page: 698-701
+  DOI: 10.1126/science.280.5364.698
+  issued:
+    date-parts:
+    - - 1998
+- id: hoffmann2024
+  type: report
+  title: The Value of Open Source Software
+  author:
+  - given: Manuel
+    family: Hoffmann
+  - given: Frank
+    family: Nagle
+  - given: Yanuo
+    family: Zhou
+  collection-title: Harvard Business School Strategy Unit Working Paper 24-038
+  publisher: Harvard Business School
+  publisher-place: Boston, MA
+  DOI: 10.2139/ssrn.4693148
+  issued:
+    date-parts:
+    - - 2024
+- id: krueger1974
+  type: article-journal
+  title: The Political Economy of the Rent-Seeking Society
+  author:
+  - given: Anne O.
+    family: Krueger
+  container-title: American Economic Review
+  volume: '64'
+  issue: '3'
+  page: 291-303
+  issued:
+    date-parts:
+    - - 1974
+- id: lemley2007
+  type: article-journal
+  title: Patent Holdup and Royalty Stacking
+  author:
+  - given: Mark A.
+    family: Lemley
+  - given: Carl
+    family: Shapiro
+  container-title: Texas Law Review
+  volume: '85'
+  page: 1991-2049
+  issued:
+    date-parts:
+    - - 2007
+- id: mazzucato2013
+  type: book
+  title: 'The Entrepreneurial State: Debunking Public vs. Private Sector Myths'
+  author:
+  - given: Mariana
+    family: Mazzucato
+  publisher: Anthem Press
+  publisher-place: London
+  issued:
+    date-parts:
+    - - 2013
+- id: mazzucato2018
+  type: book
+  title: 'The Value of Everything: Making and Taking in the Global Economy'
+  author:
+  - given: Mariana
+    family: Mazzucato
+  publisher: Allen Lane
+  publisher-place: London
+  issued:
+    date-parts:
+    - - 2018
+- id: nordhaus2004
+  type: report
+  title: 'Schumpeterian Profits in the American Economy: Theory and Measurement'
+  author:
+  - given: William D.
+    family: Nordhaus
+  collection-title: NBER Working Paper
+  number: '10433'
+  publisher: National Bureau of Economic Research
+  publisher-place: Cambridge, MA
+  DOI: 10.3386/w10433
+  issued:
+    date-parts:
+    - - 2004
+- id: romer1990
+  type: article-journal
+  title: Endogenous Technological Change
+  author:
+  - given: Paul M.
+    family: Romer
+  container-title: Journal of Political Economy
+  volume: '98'
+  issue: 5, Part 2
+  page: S71-S102
+  DOI: 10.1086/261725
+  issued:
+    date-parts:
+    - - 1990
+- id: samuelson1954
+  type: article-journal
+  title: The Pure Theory of Public Expenditure
+  author:
+  - given: Paul A.
+    family: Samuelson
+  container-title: The Review of Economics and Statistics
+  volume: '36'
+  issue: '4'
+  page: 387-389
+  DOI: 10.2307/1925895
+  issued:
+    date-parts:
+    - - 1954
+- id: shapiro2001
+  type: chapter
+  title: 'Navigating the Patent Thicket: Cross Licenses, Patent Pools, and Standard Setting'
+  author:
+  - given: Carl
+    family: Shapiro
+  editor:
+  - given: Adam B.
+    family: Jaffe
+  - given: Josh
+    family: Lerner
+  - given: Scott
+    family: Stern
+  container-title: Innovation Policy and the Economy
+  volume: '1'
+  page: 119-150
+  publisher: MIT Press
+  publisher-place: Cambridge, MA
+  DOI: 10.1086/ipe.1.25056143
+  issued:
+    date-parts:
+    - - 2001
+- id: teece1986
+  type: article-journal
+  title: 'Profiting from technological innovation: Implications for integration, collaboration, licensing
+    and public policy'
+  author:
+  - given: David J.
+    family: Teece
+  container-title: Research Policy
+  volume: '15'
+  issue: '6'
+  page: 285-305
+  DOI: 10.1016/0048-7333(86)90027-2
+  issued:
+    date-parts:
+    - - 1986
+- id: tullock1967
+  type: article-journal
+  title: The Welfare Costs of Tariffs, Monopolies, and Theft
+  author:
+  - given: Gordon
+    family: Tullock
+  container-title: Western Economic Journal
+  volume: '5'
+  issue: '3'
+  page: 224-232
+  DOI: 10.1111/j.1465-7295.1967.tb01923.x
+  issued:
+    date-parts:
+    - - 1967

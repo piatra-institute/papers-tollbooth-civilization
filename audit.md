@@ -2,6 +2,16 @@
 
 Dated log of editorial passes and verification runs. Newest first.
 
+## 2026-09-23 — structured-evidence migration
+
+Structured-evidence migration (references and claims).
+- references.yaml: 20 CSL entries. 8 matched in Crossref and kept (allen1983, arrow1962, cerf1974, heller1998, samuelson1954, teece1986, tullock1967, plus shapiro2001 re-pointed from the SSRN preprint to the Innovation Policy and the Economy chapter, DOI 10.1086/ipe.1.25056143); 4 completed by hand from DOI records (bresnahan1995, romer1990, nordhaus2004, hoffmann2024); 8 entered by hand without DOIs (david1985, krueger1974, lemley2007, christophers2020, giblin2022, mazzucato2013, mazzucato2018, cournot1897 with original date 1838). In-text author-year citations converted to Pandoc [@id] syntax; the legacy reference list replaced by the citeproc-rendered list (Chicago author-date). "Teece's (1986) analysis" became "Teece's analysis [-@teece1986]".
+- Bibliographic corrections: samuelson1954 pages 387 -> 387-389 (Crossref record gave only the first page); Tullock record case normalized and the journal kept as Western Economic Journal. No author, year or title errors found; no numerical corrections.
+- claims.yaml: 43 claims (26 computation, 7 source, 5 interpretation, 2 definition, 2 assumption, 1 normative). Computation claims bind every model number in the abstract, body, figure caption and conclusion to simulation/output/results.json under run tolls. Source claims verified: Nordhaus 2.2 percent and "minuscule fraction" (NBER PDF, abstract and conclusion); Hoffmann et al. $4.15 billion / $8.8 trillion (abstract); Heller and Eisenberg anticommons; Bresnahan and Trajtenberg GPT characteristics; Shapiro patent thicket; Romer nonrival technology (abstracts).
+- Not verified, not bound: Computer History Museum 10^22 MOS transistors; SQLite "over a trillion" databases; The Lancet 1978 editorial; Adobe ISO 32000-1 and royalty-free licence (2008); NASA COTS awards to SpaceX; 2004 Turing Award; the IGBT 15.85 trillion dollar compendium figure and its 50 percent penetration assumption; Teece, Allen, David, Krueger, Tullock, Lemley and Shapiro, Arrow, Samuelson, Christophers, Giblin and Doctorow, Mazzucato and Cournot attributions (no retrievable abstract or book text).
+- Execution receipt: verification/tolls.json (uv run python run_all.py); results.json reproduced byte-for-byte (sha256 8c8ad31e...).
+- metadata claims_target: results.json -> claim-ledger.
+
 ## 2026-09-23 — prose revision
 
 Prose rewritten against the house standards. Headings made descriptive (Introduction, Economics of non-appropriability, The layered stack and its chokepoints, A model of serial tolls, Capture at the upper layers and its attribution, Case studies, Scope and limits of the argument, Conclusion).

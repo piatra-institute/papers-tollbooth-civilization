@@ -1,0 +1,189 @@
+[
+ {
+  "id": "allen1983",
+  "families": [
+   "Allen"
+  ],
+  "authors_text": "Allen, R. C.",
+  "year": "1983",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "arrow1962",
+  "families": [
+   "Arrow"
+  ],
+  "authors_text": "Arrow, K. J.",
+  "year": "1962",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "bresnahan1995",
+  "families": [
+   "Bresnahan",
+   "Trajtenberg"
+  ],
+  "authors_text": "Bresnahan, T. F., & Trajtenberg, M.",
+  "year": "1995",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "cerf1974",
+  "families": [
+   "Cerf",
+   "Kahn"
+  ],
+  "authors_text": "Cerf, V. G., & Kahn, R. E.",
+  "year": "1974",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "christophers2020",
+  "families": [
+   "Christophers"
+  ],
+  "authors_text": "Christophers, B.",
+  "year": "2020",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "cournot1897",
+  "families": [
+   "Cournot"
+  ],
+  "authors_text": "Cournot, A. A.",
+  "year": "1897",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "david1985",
+  "families": [
+   "David"
+  ],
+  "authors_text": "David, P. A.",
+  "year": "1985",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "giblin2022",
+  "families": [
+   "Giblin",
+   "Doctorow"
+  ],
+  "authors_text": "Giblin, R., & Doctorow, C.",
+  "year": "2022",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "heller1998",
+  "families": [
+   "Heller",
+   "Eisenberg"
+  ],
+  "authors_text": "Heller, M. A., & Eisenberg, R. S.",
+  "year": "1998",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "hoffmann2024",
+  "families": [
+   "Hoffmann",
+   "Nagle",
+   "Zhou"
+  ],
+  "authors_text": "Hoffmann, M., Nagle, F., & Zhou, Y.",
+  "year": "2024",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "krueger1974",
+  "families": [
+   "Krueger"
+  ],
+  "authors_text": "Krueger, A. O.",
+  "year": "1974",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "lemley2007",
+  "families": [
+   "Lemley",
+   "Shapiro"
+  ],
+  "authors_text": "Lemley, M. A., & Shapiro, C.",
+  "year": "2007",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "mazzucato2013",
+  "families": [
+   "Mazzucato"
+  ],
+  "authors_text": "Mazzucato, M.",
+  "year": "2013",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "mazzucato2018",
+  "families": [
+   "Mazzucato"
+  ],
+  "authors_text": "Mazzucato, M.",
+  "year": "2018",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "nordhaus2004",
+  "families": [
+   "Nordhaus"
+  ],
+  "authors_text": "Nordhaus, W. D.",
+  "year": "2004",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "romer1990",
+  "families": [
+   "Romer"
+  ],
+  "authors_text": "Romer, P. M.",
+  "year": "1990",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "samuelson1954",
+  "families": [
+   "Samuelson"
+  ],
+  "authors_text": "Samuelson, P. A.",
+  "year": "1954",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "shapiro2001",
+  "families": [
+   "Shapiro"
+  ],
+  "authors_text": "Shapiro, C.",
+  "year": "2001",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "teece1986",
+  "families": [
+   "Teece"
+  ],
+  "authors_text": "Teece, D. J.",
+  "year": "1986",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "tullock1967",
+  "families": [
+   "Tullock"
+  ],
+  "authors_text": "Tullock, G.",
+  "year": "1967",
+  "status": "VERIFIED-CROSSREF"
+ }
+]

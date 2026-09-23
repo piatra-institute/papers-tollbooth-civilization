@@ -1,5 +1,5 @@
 {
-  "pdf_sha256": "3eb7ed6def461904d7e3cc76a46d652a07db9b0326f8d06c8aa40fceef3b6d9b",
+  "pdf_sha256": "bd49ce1c6c991f9d88861806e94462d52105e36967e5cc620f05bb2890cfaff3",
   "page_count": 11,
   "pages_inspected": [
     1,
@@ -15,5 +15,5 @@
     11
   ],
   "all_pages_inspected": true,
-  "notes": "All 11 pages inspected after the prose revision; figure panel titles replaced with descriptive ones, the centre-panel annotation and legend moved off the welfare curve, the open-stack label moved off the throughput curve, 1/2N written as 1/(2N); the title page line break fixed so 'Owned,' no longer sits alone. Metadata-only rebuild: the web blurb in metadata.yaml, a hashed build input, changed, so the PDF was re-rendered (ea34e53081ce to 3eb7ed6def46); the rendered text is byte-for-byte identical and no page was re-inspected."
+  "notes": "All 11 pages inspected after the migration; citations (including Cournot [1838] 1897) and the citeproc reference list render correctly; no unresolved citation keys. Metadata-only rebuild: the web blurb in metadata.yaml, a hashed build input, changed, so the PDF was re-rendered (b43895998a30 to bd49ce1c6c99); the rendered text is byte-for-byte identical and no page was re-inspected."
 }

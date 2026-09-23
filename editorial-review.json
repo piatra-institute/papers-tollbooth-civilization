@@ -1,10 +1,10 @@
 {
-  "manuscript_sha256": "cbd0a41a2b09bc0c5bd97ff6f89ddf4be35b29b543e4cee5b1e4931150ee0c22",
+  "manuscript_sha256": "133221b3b7c3cec435fda0fb204181f478fb18a28b341230f74d285e88ae3d73",
   "full_read": true,
   "argument_review": true,
   "structure_review": true,
   "voice_review": true,
   "source_review": true,
   "final_read": true,
-  "notes": "Prose revision: descriptive headings; 'rather than' 7 -> 0, 'not X but Y' 8 -> 0, 'worth' 11 -> 0, 'this paper' 5 -> 0; abstract rewritten (260 words); epigrammatic closers and the civilizational flourish removed; the derivation of the 1/(2N) capture limit restated accurately as a common revenue-maximizing toll; title line breaks rebalanced without changing the title text; all numbers and citations preserved."
+  "notes": "Structured-evidence migration: inline bibliography converted to references.yaml (CSL) with Pandoc [@id] citations; claims.yaml ledger and an execution receipt (run tolls) added; prose otherwise unchanged apart from one possessive citation."
 }
